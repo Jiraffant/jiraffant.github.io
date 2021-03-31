@@ -6,8 +6,9 @@ permalink: /contact/
 ---
 
 <form>
-  <label for="email">Email</label><input name="email" id="email">
-  <label for="mobile">Mobile</label><input name="mobile" id="mobile">
-  <label for="message">Message</label><input name="message" id="message">
-  <submit>Send</submit>
+  <label for="name">Name</label><input name="name" id="name" required>
+  <label for="email">Email</label><input name="email" id="email" required>
+  <label for="mobile">Mobile</label><input name="mobile" id="mobile" required>
+  <label for="message">Message</label><textarea name="message" id="message" required></textarea>
+  <input type="submit" class="button" value="Send">
 </form>
