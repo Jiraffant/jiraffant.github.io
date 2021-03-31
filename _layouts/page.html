@@ -3,14 +3,14 @@
   {% include head.html %}
   <body>
     {% include site_nav.html %}
-    {% if page.header_title %}
-      <h1>{{  page.header_title }}</h1>
-      <hr>
-    {% endif %}
     <div class="grid-container">
       <div class="grid-x grid-margin-x">
         <div class="cell medium-auto"></div>
         <div class="cell small-12 medium-8">
+          {% if page.header_title %}
+            <h1>{{  page.header_title }}</h1>
+            <hr>
+          {% endif %}
           {{ content }}
         </div>
         <div class="cell medium-auto"></div>
