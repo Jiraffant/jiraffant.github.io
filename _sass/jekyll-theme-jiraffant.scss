@@ -1,7 +1,4 @@
 @import 'settings';
 @import 'foundation';
 
-$xy-grid: false;
-$global-flexbox: false;
-
 @include foundation-everything;
