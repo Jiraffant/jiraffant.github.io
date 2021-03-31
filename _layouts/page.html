@@ -7,7 +7,13 @@
       <h1>{{  page.header_title }}</h1>
       <hr>
     {% endif %}
-    {{ content }}
+    <div class="grid-container">
+      <div class="grid-x grid-margin-x">
+        <div class="cell small-12 medium-8">
+          {{ content }}
+        </div>
+      </div>
+    </div>
     {% include site_footer.html %}
   </body>
 </html>

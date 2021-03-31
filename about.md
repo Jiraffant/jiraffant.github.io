@@ -2,6 +2,7 @@
 site_title: About
 header_title: About
 layout: page
+permalink: /about/
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent velit risus, tristique at libero bibendum, sodales tincidunt nisl. Donec non risus et odio mollis tempus ut eu dui. Nulla suscipit quam vitae lorem sodales ultrices. Nunc ipsum sapien, pharetra id elementum nec, mollis in nisl. Praesent eros lectus, consequat vel pulvinar eu, posuere quis orci. In iaculis, nulla ac aliquet lacinia, erat est dictum felis, ac fermentum est mi eget purus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam elementum euismod augue at scelerisque. Nam at diam odio. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed quis rhoncus enim.
