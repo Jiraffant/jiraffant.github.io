@@ -3,6 +3,10 @@
   {% include head.html %}
   <body>
     {% include site_nav.html %}
+    {% if page.header_title %}
+      <h1>{{  page.header_title }}</h1>
+      <hr>
+    {% endif %}
     {{ content }}
     {% include site_footer.html %}
   </body>
