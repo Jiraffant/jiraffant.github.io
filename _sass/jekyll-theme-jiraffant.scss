@@ -2,3 +2,18 @@
 @import 'foundation';
 
 @include foundation-everything;
+
+$hero-height: 50vh;
+
+.hero-section {
+	background: $dark-gray;
+	background-size: cover;
+	display: flex;
+	height: $hero-height;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	.hero-content {
+		color: $white;
+	}
+}
